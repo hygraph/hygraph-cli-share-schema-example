@@ -1,0 +1,12 @@
+{
+  "name": "hygraph-cli-share-schema-example",
+  "private": true,
+  "description": "Share one Hygraph schema across three projects with the Hygraph CLI",
+  "scripts": {
+    "plan": "hygraph plan",
+    "apply": "hygraph apply"
+  },
+  "devDependencies": {
+    "@hygraph/cli": "^0.0.16"
+  }
+}
