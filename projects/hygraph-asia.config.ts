@@ -1,5 +1,5 @@
 import { define, system } from "@hygraph/cli/define";
-import * as shared from "./schema";
+import * as shared from "../schema";
 
 // Leave the Offer model out
 const { Offer, ...sharedModels } = shared.models;

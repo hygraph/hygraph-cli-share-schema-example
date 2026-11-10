@@ -1,5 +1,5 @@
 import { define, system } from "@hygraph/cli/define";
-import * as shared from "./schema";
+import * as shared from "../schema";
 
 // Add a field to a shared model
 const models = {

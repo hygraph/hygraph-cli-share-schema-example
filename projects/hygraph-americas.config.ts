@@ -1,5 +1,5 @@
 import { define, system } from "@hygraph/cli/define";
-import { components, english, enumerations, models } from "./schema";
+import { components, english, enumerations, models } from "../schema";
 
 const environment = define.environment({
   locales: [english],
